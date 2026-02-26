@@ -1,0 +1,12 @@
+h1{
+    color: rgb(48, 165, 211);
+}
+p{
+    color: rgb(48, 69, 77);
+    font-size: 130%;
+}
+a{
+    color: rgb(48, 113, 211);
+    text-decoration: underline;
+    font-size: 120%;
+}
