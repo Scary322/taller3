@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/taller3/styles.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <h1>Juan José Villegas Villa</h1>
     </header>
     <nav>
@@ -16,20 +16,26 @@
             <li><a href="#proyectos">Proyectos</a></li>
         </ul>
     </nav>
-    <main>
-        <img src="/taller3/images/Juan José foto.jpg" alt="Mi foto" width="200">
+    <main class="contenedor">
+        <div class="contenedor-foto"><img class="mi-foto" src="/taller3/images/Juan José foto.jpg" alt="Mi foto" width="200"></div>
         
+        <section class="sobre-mi">
         <h2>Sobre mi</h2>
         <p>Soy un estudiante de ingenieria en ciencia de datos, me gusta la programación y el desarrollo web.</p>
-        <a href="https://www.linkedin.com/in/juan-jos%C3%A9-villegas-a1ab583b2/">Mi linkedin</a>
-        <a href="https://github.com/Scary322">Mi github</a>
+        <ul>
+        <li><a href="https://www.linkedin.com/in/juan-jos%C3%A9-villegas-a1ab583b2/"><strong>Mi linkedin</strong></a></li>
+        <li><a href="https://github.com/Scary322"><strong>Mi github</strong></a></li>
+        </ul>
+        </section>
+        <section class="proyectos">
         <h2>Proyectos</h2>
         <ul>
         <li><a href="https://www.coca-cola.com/es/es"><strong>Coca-Cola</strong><em>(No mi proyecto)</em></a></li>
         <li><a href="https://www.netflix.com/"><strong>Netflix</strong><em>(No mi proyecto)</em></a></li>
         </ul>
+        </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>Derechos reservados © 2026</p>
     </footer>
     
